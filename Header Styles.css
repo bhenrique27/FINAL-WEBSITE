@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      background-color: #f4f4f4;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header h2 {
+      margin: 0.5em 0 0;
+      font-size: 1.5em;
+      color: #555;
+    }
+    nav {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    } 
+	.column {
+      background-color: white;
+      padding: 10px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+ 
+/* Create a responsive style by removing the CSS comment tags below. */
+
+ /* .responsive-img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 20px;
+      border: 2px solid #ccc;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+
+.header_banner {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+/* Make all content links (like your email) black instead of white */
+/* Force email link to be black and always override navbar styles */
+.email-link {
+    color: black !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    color: #333 !important;
+    text-decoration: underline;
+}
